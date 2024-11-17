@@ -1,0 +1,30 @@
+.bgcolor-div {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bgcolor-div h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.bgcolor-div p {
+    font-size: 1.25rem;
+    margin: 10px 0;
+    color: #222;
+}
+
+.bgcolor-div button {
+    padding: 10px 20px;
+    background-color:#0000cd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.bgcolor-div button:hover {
+    background-color: #4169e1;
+}

@@ -1,0 +1,59 @@
+.postList-div {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.postList-div h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.postList-div ul {
+    list-style: none;
+    padding: 0;
+}
+
+.postList-div ul li {
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.postList-div ul li h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px
+}
+
+.postList-div ul li p {
+    color: #555;
+    font-size: 1rem;
+}
+
+.loadingPosts {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.postListBtn {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #0000cd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.postListBtn:hover {
+    background-color: #4169e1;
+}

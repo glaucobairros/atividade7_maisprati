@@ -1,0 +1,32 @@
+.counter-div {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.counter-div h2 {
+    color: #333; 
+    font-size:  1.5rem; 
+    margin-bottom: 20px; 
+}
+
+.counter-div p {
+    font-size: 1.25rem;
+    margin: 10px 0;
+    color: #222; 
+}
+
+.counter-div button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #0000cd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.counter-div button:hover {
+    background-color: #4169e1;
+}

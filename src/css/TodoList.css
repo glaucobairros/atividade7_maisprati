@@ -1,0 +1,81 @@
+.toDoList-div {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.toDoList-div h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.toDoList-div input {
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.toDoList-div input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgb(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.toDoList-div ul {
+    list-style: none;
+    padding: 5px;
+}
+
+.toDoList-div ul li {
+    margin: 20px 0;
+}
+
+.addTaskBtn {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #0000cd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.tasks {
+    margin-top: 10px;
+}
+
+.all-btn, .pending-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #0000cd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.all-btn:hover, .pending-btn:hover, .addTaskBtn:hover {
+    background-color: #4169e1;
+}
+
+.remove-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.remove-btn:hover {
+    background-color: #cc0000;
+}
